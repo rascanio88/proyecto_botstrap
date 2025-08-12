@@ -1,0 +1,40 @@
+/* estilos.css - Estilos comunes y específicos por página */
+
+/* ----- Estilos generales ----- */
+body {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 1rem;
+}
+
+.form-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #6c63ff;
+}
+
+.btn-primary {
+    background-color: #6c63ff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #574b90;
+}
+
+.btn-outline-secondary:hover {
+    color: white;
+    background-color: #6c63ff;
+}
